@@ -229,3 +229,14 @@ INSERT INTO entree VALUES (8,8,100,'01-03-2017','unite');
 INSERT INTO entree VALUES (9,9,1000000,'01-03-2017','g');
 INSERT INTO entree VALUES (10,10,10000,'01-03-2017','g');
 INSERT INTO entree VALUES (11,11,100,'01-03-2017','sachets');
+
+
+
+
+/*sequence*/
+ALTER SEQUENCE categorie_id_categ_seq RESTART WITH 6;
+ALTER SEQUENCE commande_id_commande_seq RESTART WITH 1;
+ALTER SEQUENCE entree_id_entree_seq RESTART WITH 12;
+ALTER SEQUENCE ingredient_id_ingredient_seq RESTART WITH 12;
+ALTER SEQUENCE recette_id_recette_seq RESTART WITH 31;
+ALTER SEQUENCE utilisateur_id_utilisateur_seq RESTART WITH 3;
